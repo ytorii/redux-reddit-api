@@ -1,0 +1,28 @@
+{
+  "name": "reddit_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server -d --progress --colors"
+  },
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^1.3.1",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.1",
+    "redux-logger": "^3.0.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
