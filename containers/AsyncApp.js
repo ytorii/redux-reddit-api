@@ -46,7 +46,7 @@ class AsyncApp extends Component {
         <p>
           {lastUpdated && 
             <span>
-              Last updated at {new Date(lastUpdated).toLocaleTImeString()}.
+              Last updated at {new Date(lastUpdated).toLocaleTimeString()}.
               {' '}
             </span>
           }
@@ -83,6 +83,8 @@ const mapStateToProps = (state) => {
   } = postsBySubreddit[selectedSubreddit] || {isFetching: true,
     items: []
   }
+
+  console.log(state)
 
   return {
     selectedSubreddit,

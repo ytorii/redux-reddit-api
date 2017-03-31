@@ -5,14 +5,14 @@ export const INVALIDATE_SUBREDDIT = 'INVALIDATE_SUBREDDIT'
 export const REQUEST_POSTS = 'REQUEST_POSTS'
 export const RECEIVE_POSTS = 'RECEIVE_POSTS'
 
-const selectSubreddit = subreddit => {
+export const selectSubreddit = subreddit => {
   return {
     type: SELECT_SUBREDDIT,
     subreddit
   }
 }
 
-const invalidateSubreddit = subreddit => {
+export const invalidateSubreddit = subreddit => {
   return {
     type: INVALIDATE_SUBREDDIT,
     subreddit
